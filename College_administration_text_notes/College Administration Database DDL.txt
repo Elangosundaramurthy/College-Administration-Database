@@ -1,0 +1,91 @@
+FIELDS
+
+Department names (UG and PG)
+Department code
+Head of the Department
+HOD Mail id
+Hod Contact no
+HOD Intercom
+HOD qualification
+HOD experience
+Teaching Faculty Names
+Teaching Faculty mail id
+Teaching Faculty Qualification
+Teaching Faculty contact no
+Teaching Faculty - Area of Expertise
+Student Names
+Student location
+Student first graduate
+Student degree (ug or pg )
+Student roll no
+Student department
+Student Year
+Student Gender
+Student Mobile no
+Student Email id
+Student Hostel / Day scholar (College bus)
+Non-Teaching Faculty Names
+Non-Teaching Faculty mail id
+Non-Teaching Faculty contact no
+Student Parents Name (Father / Mother)
+Student Parents Occupation
+Student Parents' Annual Income
+Teaching_Faculty_Department_name
+non_Teaching_Faculty_Department_name
+------------------------------------------------
+TABLE name & FIELDS
+
+   Department
+Department_code (pk)
+Department_names
+
+   HOD's_details
+Head_of_the_Department (fk)
+HOD_Mail_id 
+Hod_Contact_no 
+HOD_Intercom
+HOD_qualification
+HOD_experience 
+ 
+   Teaching_faculty_information
+Teaching_faculty_id(pk)
+Teaching_Faculty_Department_name(fk)
+Teaching_Faculty_Names 
+Teaching_Faculty_mail id (uk)
+Teaching_Faculty_Qualification 
+Teaching_Faculty_contact_no
+Teaching_Faculty_Area_of_Expertise 
+
+   Student_Parents_details
+student_roll_no(fk)
+Student_Father_Name
+Student_Mother_Name 
+Student_Parents_Occupation
+Student_Parents_Annual_Income
+ 
+   Student_details
+student_roll_no(pk)
+Student_department_code(fk)
+Student_Names
+Student_location
+Student_first graduate
+Student_degree (ug or pg )
+Student_roll_no
+Student_Year
+Student_Gender
+Student_Mobile_no
+Student_Email_id
+
+   Non-Teaching_Faculty
+non_Teaching_Faculty_Department_code(fk)
+non_Teaching_Faculty_Department_code(pk)
+Non-Teaching_Faculty_Names
+Non-Teaching_Faculty_mail_id
+Non-Teaching_Faculty_contact_no(uk)
+
+    Salary
+ taching_faculty(FK)
+non_teaching_faculty(FK)
+no_of_working_days
+    
+   
